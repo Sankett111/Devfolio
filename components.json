@@ -1,0 +1,40 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+<<<<<<< HEAD
+  "style": "base-nova",
+=======
+  "style": "new-york",
+>>>>>>> 982a93888bbbde668e82faa04f0334f7ed4354f8
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "app/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "iconLibrary": "lucide",
+<<<<<<< HEAD
+  "rtl": false,
+=======
+>>>>>>> 982a93888bbbde668e82faa04f0334f7ed4354f8
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+<<<<<<< HEAD
+  "menuColor": "default",
+  "menuAccent": "subtle",
+  "registries": {
+    "@magicui": "https://magicui.design/r/{name}",
+    "@ncdai": "https://chanhdai.com/r/{name}.json"
+=======
+  "registries": {
+    "@magicui": "https://magicui.design/r/{name}.json"
+>>>>>>> 982a93888bbbde668e82faa04f0334f7ed4354f8
+  }
+}
