@@ -23,7 +23,7 @@ export default function Project({ project }: Props) {
           </h3>
 
           {/* Metadata */}
-          <div className="mt-2.5 flex flex-wrap items-center gap-2 font-technical text-[10px] uppercase tracking-[0.1em]">
+          <div className="mt-2.5 flex flex-wrap items-center gap-2 font-technical text-[11px] uppercase tracking-[0.1em]">
             <span className="text-neutral-500 dark:text-neutral-400">
               {project.category}
             </span>
@@ -62,38 +62,38 @@ export default function Project({ project }: Props) {
           {project.description}
         </p>
 
-        {/* Technical details */}
-        <div className="mt-7 space-y-[18px] text-[13px]">
+       {/* Technical details */}
+      <div className="mt-7 space-y-[18px] text-[13px]">   
 
-          {/* Focus */}
-          <div className="flex flex-wrap items-start gap-3">
-            <span className="w-10 shrink-0 pt-1 font-technical text-[12px] tracking-wide text-neutral-400">
-              FOCUS
-            </span>
+       {/* Focus */}
+      <div className="grid grid-cols-[48px_1fr] items-start gap-3">
+      <span className="pt-0.5 font-technical text-[12px] tracking-wide text-neutral-400">
+       FOCUS
+      </span>
 
-            <span className="text-neutral-700 dark:text-neutral-300">
-              {project.focus}
-            </span>
-          </div>
+      <span className="text-neutral-700 dark:text-neutral-300">
+       {project.focus}
+      </span>
+      </div>
 
-          {/* Technology stack */}
-          <div className="flex flex-wrap items-start gap-3">
-            <span className="w-10 shrink-0 pt-1.5 font-technical text-[12px] tracking-wide text-neutral-400">
-              STACK
-            </span>
+      {/* Technology stack */}
+     <div className="grid grid-cols-[48px_1fr] items-start gap-3">
+     <span className="pt-0.5 font-technical text-[12px] tracking-wide text-neutral-400">
+       STACK
+      </span>
 
-            <div className="flex flex-wrap gap-1.5">
-              {project.technologies.map((technology) => (
-                <span
-                  key={technology}
-                  className="rounded-md border border-dashed border-neutral-200 bg-neutral-50 px-2 py-1 font-technical text-[10px] text-neutral-600 shadow-[inset_0_1px_2px_rgba(0,0,0,0.035)] transition-colors dark:border-neutral-800 dark:bg-neutral-900 dark:text-neutral-300"
-                >
-                  {technology}
-                </span>
-              ))}
+      <div className="flex flex-wrap gap-1.5">
+       {project.technologies.map((technology) => (
+        <span
+          key={technology}
+          className="rounded-md border border-dashed border-neutral-200 bg-neutral-50 px-2 py-1 font-technical text-[10px] text-neutral-600 shadow-[inset_0_1px_2px_rgba(0,0,0,0.035)] transition-colors dark:border-neutral-800 dark:bg-neutral-900 dark:text-neutral-300"
+        >
+          {technology}
+        </span>
+         ))}
+               </div>
+              </div>
             </div>
-          </div>
-        </div>
 
         {/* Links */}
         <div className="mt-5 flex flex-wrap gap-5">
