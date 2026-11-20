@@ -131,7 +131,7 @@ export default function Project({ project }: Props) {
               src={project.image}
               alt={`${project.title} preview`}
               fill
-              className="rounded-2xl object-cover"
+              className="rounded-2xl object-cover grayscale transition-[filter] duration-300 hover:grayscale-0 motion-reduce:transition-none"
               sizes="(max-width: 640px) 100vw, 230px"
             />
           </div>

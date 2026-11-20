@@ -3,6 +3,7 @@ import { FrameTag } from "./frame-tag";
 import {Mail,ArrowUpRight} from "lucide-react";
 import {FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { FaMediumM} from "react-icons/fa";
+
 import { ThreeDIconButton } from "./3d-button";
 export default function Contact() {
   return (
@@ -26,7 +27,14 @@ export default function Contact() {
           </p>
 
           <a href="mailto:sanket7132@gmail.com"
-            className="group inline-flex items-center gap-2 rounded-sm text-sm font-medium">
+            className="inline-flex items-center gap-2 rounded-2xl border border-teal-900/10
+              bg-linear-to-br from-white/30 via-white/10 to-teal-100/50 px-4 py-2.5 text-sm font-medium
+              shadow-[0_4px_14px_rgba(15,118,110,0.10),inset_0_1px_0_rgba(255,255,255,0.95)]
+              backdrop-blur-md backdrop-saturate-150 transition-colors hover:border-teal-500/45
+              focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600
+              dark:border-white/15 dark:from-white/15 dark:via-white/5 dark:to-teal-400/15
+              dark:shadow-[0_4px_14px_rgba(0,0,0,0.3),inset_0_1px_0_rgba(255,255,255,0.18)]
+             ">
             <Mail size={16} strokeWidth={1.7} className="text-teal-600 dark:text-teal-400" />
             sanket7132@gmail.com
            </a>
