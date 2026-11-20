@@ -15,7 +15,7 @@ export default function Footer() {
             Designed &amp; Made with <span>💚</span>
           </small>
 
-          <RollingClock hour12={false} className="text-xs" />
+          <RollingClock hour12={true} className="text-xs" />
         </div>
       </div>
     </footer>
