@@ -47,19 +47,21 @@ export default function Contact() {
         window.open("https://github.com/Sankett111", "_blank", "noopener,noreferrer")
       }
     >
-      <FaGithub size={15} />
+      <FaGithub size={16} />
     </ThreeDIconButton>
   </div>
 
   <div className="tooltip tooltip-top" data-tip="LinkedIn">
-    <ThreeDIconButton label="LinkedIn" variant="soft">
-      <FaLinkedinIn size={15} />
+    <ThreeDIconButton label="LinkedIn" variant="soft" onClick={()=>{
+      window.open("https://linkedin.com/in/sanket-nandurakar", "_blank", "noopener,noreferrer")
+    }}>
+      <FaLinkedinIn size={16} />
     </ThreeDIconButton>
   </div>
 
   <div className="tooltip tooltip-top" data-tip="Medium">
     <ThreeDIconButton label="Medium" variant="soft">
-      <FaMediumM size={15} />
+      <FaMediumM size={16} />
     </ThreeDIconButton>
   </div>
 </div>

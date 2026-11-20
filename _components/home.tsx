@@ -144,7 +144,7 @@ export default function Home() {
       label="LinkedIn profile"
       variant="soft"
       onClick={() =>
-        window.open("YOUR_LINKEDIN_URL", "_blank", "noopener,noreferrer")
+        window.open("https://www.linkedin.com/in/sanket-nandurkar", "_blank", "noopener,noreferrer")
       }
     >
       <FaLinkedinIn size={16} />
@@ -166,7 +166,7 @@ export default function Home() {
       onClick={() => {
         const link = document.createElement("a");
         link.href = "/resume.pdf";
-        link.download = "Sanket-Nandurkar-Resume.pdf";
+        link.download = "Sanket-Nandurkar Resume.pdf";
         link.click();
       }}
     >
