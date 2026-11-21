@@ -25,6 +25,19 @@ export const projects: Project[] = [
     github: "#",
   },
   {
+    title: "Colab-Vault",
+    category: "Web Development",
+    year: "2023",
+    status: "Completed",
+    description:
+      "A personal vault for sharing files with QR",
+    focus: "Interface design & development",
+    technologies: ["React.js", "JavaScript", "Tailwind CSS"],
+    image: "/images/cat.jpg",
+    github: "#",
+    live: "#",
+  },
+  {
     title: "Portfolio",
     category: "Web Development",
     year: "2026",
