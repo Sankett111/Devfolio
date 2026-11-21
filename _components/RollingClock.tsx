@@ -35,7 +35,7 @@ export default function RollingClock({ hour12 = true, className }: RollingClockP
   const suffix = hour12 ? time.slice(8).trim() : "IST";
 
   return (
-    <div className={cn("flex shrink-0 items-center font-mono text-xs tabular-nums text-neutral-500", className)}>
+    <div className={cn("flex shrink-0 items-center font-mono text-xs tabular-nums text-neutral-500 dark:text-muted-foreground", className)}>
       <span className="sr-only">{digits} {suffix}</span>
       <div aria-hidden="true" className="flex items-center">
         {digits.split("").map((char, index) =>

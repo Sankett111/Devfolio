@@ -17,7 +17,7 @@ export default function ProjectSection({ previewCount = projects.length }: { pre
           <summary
             className="mx-auto mb-4 flex w-fit cursor-pointer list-none items-center justify-center
               rounded-2xl border border-teal-900/10 bg-linear-to-br from-white/30 via-white/10 to-teal-100/50
-              px-4 py-2.5 text-sm font-medium
+              px-4 py-2.5 text-sm font-medium dark:text-teal-200
               shadow-[0_4px_14px_rgba(15,118,110,0.10),inset_0_1px_0_rgba(255,255,255,0.95)]
               backdrop-blur-md backdrop-saturate-150
               focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600

@@ -15,7 +15,7 @@ export function FrameTag({
 
   return (
     <span
-      className={`relative inline-flex items-center justify-center border border-neutral-300 px-4 py-1.5 text-neutral-800 dark:border-neutral-700 dark:text-neutral-100 ${className}`}
+      className={`relative inline-flex items-center justify-center border border-neutral-300 px-4 py-1.5 text-neutral-800 dark:border-neutral-700 dark:text-white ${className}`}
     >
       {children}
 

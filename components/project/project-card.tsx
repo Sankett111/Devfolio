@@ -18,13 +18,13 @@ export default function Project({ project }: Props) {
 
         {/* Heading */}
         <div>
-          <h3 className="text-[25px] font-semibold tracking-[-0.04em] text-neutral-900 transition-colors group-hover:text-neutral-700 dark:text-neutral-100 dark:group-hover:text-white">
+          <h3 className="text-[25px] font-semibold tracking-[-0.04em] text-neutral-900 transition-colors group-hover:text-neutral-700 dark:text-white dark:group-hover:text-white">
             {project.title}
           </h3>
 
           {/* Metadata */}
           <div className="mt-2.5 flex flex-wrap items-center gap-2 font-technical text-[11px] uppercase tracking-[0.1em]">
-            <span className="text-neutral-500 dark:text-neutral-400">
+            <span className="text-neutral-500 dark:text-muted-foreground">
               {project.category}
             </span>
 
@@ -32,7 +32,7 @@ export default function Project({ project }: Props) {
               /
             </span>
 
-            <span className="text-neutral-500 dark:text-neutral-400">
+            <span className="text-neutral-500 dark:text-muted-foreground">
               {project.year}
             </span>
 
@@ -58,7 +58,7 @@ export default function Project({ project }: Props) {
         </div>
 
         {/* Description */}
-        <p className="mt-[22px] max-w-[420px] text-[15px] leading-[1.65] text-neutral-600 dark:text-neutral-400">
+        <p className="mt-[22px] max-w-[420px] text-[15px] leading-[1.65] text-neutral-600 dark:text-muted-foreground">
           {project.description}
         </p>
 
@@ -67,18 +67,18 @@ export default function Project({ project }: Props) {
 
        {/* Focus */}
       <div className="grid grid-cols-[48px_1fr] items-start gap-3">
-      <span className="pt-0.5 font-technical text-[12px] tracking-wide text-neutral-400">
+      <span className="pt-0.5 font-technical text-[12px] tracking-wide text-neutral-400 dark:text-muted-foreground">
        FOCUS
       </span>
 
-      <span className="text-neutral-700 dark:text-neutral-300">
+      <span className="text-neutral-700 dark:text-foreground">
        {project.focus}
       </span>
       </div>
 
       {/* Technology stack */}
      <div className="grid grid-cols-[48px_1fr] items-start gap-3">
-     <span className="pt-0.5 font-technical text-[12px] tracking-wide text-neutral-400">
+     <span className="pt-0.5 font-technical text-[12px] tracking-wide text-neutral-400 dark:text-muted-foreground">
        STACK
       </span>
 
@@ -86,7 +86,7 @@ export default function Project({ project }: Props) {
        {project.technologies.map((technology) => (
         <span
           key={technology}
-          className="rounded-md border border-dashed border-neutral-200 bg-neutral-50 px-2 py-1 font-technical text-[10px] text-neutral-600 shadow-[inset_0_1px_2px_rgba(0,0,0,0.035)] transition-colors dark:border-neutral-800 dark:bg-neutral-900 dark:text-neutral-300"
+          className="rounded-md border border-dashed border-neutral-200 bg-neutral-50 px-2 py-1 font-technical text-[10px] text-neutral-600 shadow-[inset_0_1px_2px_rgba(0,0,0,0.035)] transition-colors dark:border-neutral-800 dark:bg-neutral-900 dark:text-foreground"
         >
           {technology}
         </span>
@@ -102,7 +102,7 @@ export default function Project({ project }: Props) {
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-[12px] font-medium text-neutral-600 transition-colors hover:text-neutral-950 dark:text-neutral-400 dark:hover:text-neutral-100"
+              className="inline-flex items-center gap-1 text-[12px] font-medium text-neutral-600 transition-colors hover:text-neutral-950 dark:text-muted-foreground dark:hover:text-neutral-100"
             >
               Source code
               <ArrowUpRight size={14} />
@@ -114,7 +114,7 @@ export default function Project({ project }: Props) {
               href={project.live}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-[12px] font-medium text-neutral-600 transition-colors hover:text-neutral-950 dark:text-neutral-400 dark:hover:text-neutral-100"
+              className="inline-flex items-center gap-1 text-[12px] font-medium text-neutral-600 transition-colors hover:text-neutral-950 dark:text-muted-foreground dark:hover:text-neutral-100"
             >
               Live site
               <ArrowUpRight size={14} />

@@ -59,7 +59,7 @@ export default function Home() {
             Sanket Nandurkar
           </h1>
           <a
-            className="text-md italic tracking-wide  text-neutral-700 dark:text-neutral-400"
+            className="text-md italic tracking-wide  text-neutral-700 dark:text-muted-foreground"
             href="https://github.com/Sankett111/xeni"
             target="_blank"
             rel="noopener noreferrer"
@@ -67,12 +67,12 @@ export default function Home() {
             Cookin&apos; Up Xeni
           </a>
 
-          <div className="mt-2 flex items-center gap-2 text-sm text-neutral-500">
+          <div className="mt-2 flex items-center gap-2 text-sm text-neutral-500 dark:text-muted-foreground">
   <Clock size={14} strokeWidth={1.8} />
   <RollingClock />
 </div>
 
-          <div className="flex items-center gap-2 text-sm text-neutral-500">
+          <div className="flex items-center gap-2 text-sm text-neutral-500 dark:text-muted-foreground">
             <MapPin size={14} />
             <span>Mumbai, India</span>
           </div>
@@ -80,10 +80,10 @@ export default function Home() {
       </div>
 
       {/* Introduction */}
-      <div className="-translate-y-4 text-[15px] leading-7 tracking-wide text-neutral-400">
+      <div className="-translate-y-4 text-[15px] leading-7 tracking-wide text-neutral-400 dark:text-muted-foreground">
         <p>
           ◈ Hello, I am a{" "}
-          <span className="text-neutral-800 dark:text-neutral-100">
+          <span className="text-neutral-800 dark:text-white">
             Full Stack Developer
           </span>
           .
@@ -91,13 +91,13 @@ export default function Home() {
 
         <p>
           ◈ Currently building{" "}
-          <span className="text-neutral-800 dark:text-neutral-100">
+          <span className="text-neutral-800 dark:text-white">
             Xeni ~ A powerful C++ based Vector DB.
           </span>
         </p>
 
         <p>
-          ◈ <span className="text-neutral-800 dark:text-neutral-100">Curious</span>{" "}
+          ◈ <span className="text-neutral-800 dark:text-white">Curious</span>{" "}
           about how things work.
         </p>
       </div>

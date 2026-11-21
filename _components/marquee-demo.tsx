@@ -73,13 +73,13 @@ function SkillItem({
         aria-hidden="true"
         className={`size-5 shrink-0 ${
           monochrome
-            ? "text-neutral-800 dark:text-neutral-100"
+            ? "text-neutral-800 dark:text-white"
             : ""
         }`}
         style={monochrome ? undefined : { color }}
       />
 
-      <span className="whitespace-nowrap text-sm font-medium tracking-tight text-neutral-600 dark:text-neutral-400">
+      <span className="whitespace-nowrap text-sm font-medium tracking-tight text-neutral-600 dark:text-muted-foreground">
         {name}
       </span>
     </div>

@@ -16,7 +16,7 @@ export default function ProjectsPage() {
           </FrameTag>
           <ProjectSection />
           <div className="animated-border" />
-          <h1 className="py-4 px-4 text-md mt-2 font-sans italic text-neutral-600 dark:text-neutral-400">
+          <h1 className="py-4 px-4 text-md mt-2 font-sans italic text-neutral-600 dark:text-muted-foreground">
             Record of the Work, Experiments, and progress along the Way...
           </h1>
           <ContributionGraph />

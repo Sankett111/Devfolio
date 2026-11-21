@@ -34,7 +34,7 @@ export default function Navbar() {
                 className={`shrink-0 rounded-md px-1.5 py-2 text-[13px] font-medium transition-colors max-[360px]:px-1 sm:px-2 sm:text-xs md:text-sm ${
                            pathname === href
                            ? "text-neutral-950 dark:text-white"
-                           : "text-neutral-600 dark:text-neutral-400"
+                           : "text-neutral-600 dark:text-muted-foreground"
                          }`}>
                 {label}
               </Link>
