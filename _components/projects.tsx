@@ -6,7 +6,7 @@ export default function projects() {
     <section id="projects" className="scroll-mt- py-3">
       <FrameTag>
       <h2 className="text-sm tracking-wider">Projects</h2></FrameTag>
-      <ProjectSection/>
+      <ProjectSection previewCount={2} />
     </section>
   );
 }
